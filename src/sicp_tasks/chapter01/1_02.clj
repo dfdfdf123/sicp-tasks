@@ -1,3 +1,15 @@
-(ns sicp-tasks.chapter01-02)
+(ns sicp-tasks.chapter01.1-02)
 
-(def solution)
+(def solution
+  (/ (+ 5
+        4
+        (- 2
+           (- 3
+              (+ 6
+                 (/ 4
+                    5)))))
+     (* 3
+        (- 6
+           2)
+        (- 2
+           7))))

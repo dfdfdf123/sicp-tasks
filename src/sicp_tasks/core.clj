@@ -1,4 +1,5 @@
-(ns sicp-tasks.core)
+(ns sicp-tasks.core
+  (:gen-class))
 
 (defn -main
   "I don't do a whole lot ... yet."

@@ -1,4 +1,4 @@
-(ns sicp.test-helper
+(ns sicp-tasks.test-helper
   (:require [clojure.test :refer [is]]))
 
 (defmacro assert-equal 
@@ -6,9 +6,9 @@
   `(assert-true (= ~expected ~actual)))
 
 (defmacro assert-true
-  [expected actual] 
-  `(assert-true (= ~expected ~actual)))
+  [expr] 
+  `(is ~expr))
 
 (defmacro assert-false 
-  [expected actual]
+  [expr]
   `(assert-true (not ~expr)))
